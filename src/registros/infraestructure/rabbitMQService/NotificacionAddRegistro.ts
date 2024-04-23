@@ -7,8 +7,8 @@ export class NotificationNewRegistry implements INotificationNewRegistry {
     private exch: any;
   
     constructor() {
-      this.url = "amqp://carlos:12345@34.229.31.98";
-      this.exch = "initial";
+      this.url = "amqp://michi:michi123@52.205.249.137";
+      this.exch = "Prueba";
     }
   
     async sendNotification(registration: Registration): Promise<boolean> {
